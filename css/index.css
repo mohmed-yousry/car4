@@ -142,3 +142,7 @@ html {
   background: linear-gradient(#149ada,#131b39);
   border-radius: 8px ;
 }
+
+body {
+  font-family: 'Cairo', sans-serif;
+}
