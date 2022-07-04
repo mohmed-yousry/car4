@@ -20,8 +20,15 @@ html {
 }
 
 .select-selected {
-  background-color: DodgerBlue;
+  background-color: white ;
+  color: rgb(156 163 175) !important;
 }
+
+.select-selected:hover {
+  color: #149ada !important;
+}
+
+
 
 /*style the arrow inside the select element:*/
 .select-selected.left:after {
@@ -32,7 +39,7 @@ html {
   height: 0;
   right: 10px;
   border: 6px solid transparent;
-  border-color: #fff transparent transparent transparent;
+  border-color: black transparent transparent transparent !important;
 }
 
 .select-selected.right::after {
